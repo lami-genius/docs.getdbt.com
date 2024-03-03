@@ -32,5 +32,5 @@ The `@` operator is similar to `+`, but will also include _the parents of the ch
 <Lightbox src="/img/docs/running-a-dbt-project/command-line-interface/1643e30-Screen_Shot_2019-03-11_at_7.18.20_PM.png" title="@snowplow_web_page_context will select all of the models shown here"/>
 
 ```bash
-dbt run --models @my_model           # select my_model, its children, and the parents of its children
+dbt run --models "@my_model"           # select my_model, its children, and the parents of its children. single quotes can also be used in the place of double quotes.
 ```
